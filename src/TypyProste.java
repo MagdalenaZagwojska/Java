@@ -7,4 +7,6 @@ public class TypyProste {
     //pojedynczy znak
     char letter ='a';
 
+    // float i double - liczby zmiennoprzecinkowe
+
 }
