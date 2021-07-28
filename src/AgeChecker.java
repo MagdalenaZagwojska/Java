@@ -7,9 +7,12 @@ public class AgeChecker {
         int age = checker.nextInt();
         if (age>=18) {
             System.out.println("Dziękujemy za zakupy.");
-        } else {
-                System.out.println("Musisz mieć skończone 18 lat.");
-            }
+        } else if (age <0) {
+            System.out.println("Podaj poprawną wartość");
+        }
+        else {
+            System.out.println("Musisz mieć skończone 18 lat.");
+        }
         }
 
 
